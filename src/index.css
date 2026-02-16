@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background: white;
+  }
+  .invoice {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 20mm;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .ant-tooltip {
+    display: none !important;
+  }
+}
